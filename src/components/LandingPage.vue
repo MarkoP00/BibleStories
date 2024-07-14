@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img src="/src/assets/bgimage.jpg" alt="" loading="lazy" />
+    <img src="/storyImages/bgimage.jpg" alt="" />
   </div>
   <section>
     <div class="content">

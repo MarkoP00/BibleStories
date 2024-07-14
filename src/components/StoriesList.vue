@@ -7,7 +7,7 @@
       <li v-for="story in storiesData" :key="storiesData.id">
         <div class="card">
           <div class="card-img">
-            <img :src="`/src/assets/storyImages/${story.image}`" alt="" />
+            <img :src="`/storyImages/${story.image}`" alt="" />
           </div>
           <div class="card-body">
             <span class="bg"></span>

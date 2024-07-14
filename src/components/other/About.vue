@@ -32,7 +32,7 @@
     </main>
   </section>
   <div class="container">
-    <img src="/src/assets/bg3img.jpg" alt="" loading="lazy" />
+    <img src="/storyImages/bg3img.jpg" alt="" />
   </div>
 </template>
 

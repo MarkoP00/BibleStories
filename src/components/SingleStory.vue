@@ -1,10 +1,7 @@
 <template>
   <main>
     <div class="topSide">
-      <img
-        :src="`/src/assets/storyImages/${singleStoryData.image}`"
-        alt="Story Image"
-      />
+      <img :src="`/storyImages/${singleStoryData.image}`" alt="Story Image" />
       <h2>{{ singleStoryData.title }}</h2>
     </div>
     <div class="mainContent">
@@ -32,7 +29,7 @@
   </main>
 
   <div class="container">
-    <img src="/src/assets/bg2img.jpg" alt="" loading="lazy" />
+    <img src="/storyImages/bg2img.jpg" alt="" />
   </div>
 </template>
 
