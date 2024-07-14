@@ -9,7 +9,7 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     {
-      path: "/BibleStories",
+      path: "/",
       component: LandingPage,
     },
     {
