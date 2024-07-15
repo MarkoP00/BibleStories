@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="topSide">
-      <img :src="`/storyImages/${singleStoryData.image}`" alt="Story Image" />
+      <img :src="`/BibleStories/storyImages/${singleStoryData.image}`" alt="Story Image" />
       <h2>{{ singleStoryData.title }}</h2>
     </div>
     <div class="mainContent">
