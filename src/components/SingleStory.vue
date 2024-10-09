@@ -1,7 +1,9 @@
 <template>
   <main>
     <div class="topSide">
-      <img :src="`/BibleStories/storyImages/${singleStoryData.image}`" alt="Story Image" />
+      <img
+        :src="`./storyImages/${singleStoryData.image}`"
+        alt="Story Image" />
       <h2>{{ singleStoryData.title }}</h2>
     </div>
     <div class="mainContent">
@@ -19,8 +21,7 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-          style="border-radius: 20px"
-        ></iframe>
+          style="border-radius: 20px"></iframe>
       </div>
       <div class="quote">
         <Quote></Quote>
@@ -29,7 +30,9 @@
   </main>
 
   <div class="container">
-    <img src="/storyImages/bg2img.jpg" alt="" />
+    <img
+      src="/storyImages/bg2img.jpg"
+      alt="" />
   </div>
 </template>
 

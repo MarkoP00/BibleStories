@@ -4,10 +4,14 @@
       <h3>Choose your Bible Story</h3>
     </div>
     <ul>
-      <li v-for="story in storiesData" :key="storiesData.id">
+      <li
+        v-for="story in storiesData"
+        :key="storiesData.id">
         <div class="card">
           <div class="card-img">
-            <img :src="`/BibleStories/storyImages/${story.image}`" :alt="`${story.image}`" />
+            <img
+              :src="`./storyImages/${story.image}`"
+              :alt="`${story.image}`" />
           </div>
           <div class="card-body">
             <span class="bg"></span>
@@ -20,8 +24,7 @@
               </p>
               <GlobalButton
                 @click="navigateToStory(story.id)"
-                style="height: 40px; width: 120px"
-              ></GlobalButton>
+                style="height: 40px; width: 120px"></GlobalButton>
             </div>
           </div>
         </div>
