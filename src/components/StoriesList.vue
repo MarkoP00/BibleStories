@@ -3,7 +3,7 @@
     <div class="containerTitle">
       <h3>Choose your Bible Story</h3>
     </div>
-    <ul>
+    <ul v-if="storiesData">
       <li
         v-for="story in storiesData"
         :key="storiesData.id">
@@ -30,6 +30,7 @@
         </div>
       </li>
     </ul>
+    <p v-else>Loading...</p>
   </section>
 </template>
 
